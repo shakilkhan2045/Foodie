@@ -22,9 +22,36 @@ html{
 }
 .navbar{
         font-family: "Barlow Condensed", sans-serif;
-        font-weight: 500;
+        font-weight: 700;
         letter-spacing:1px;
       }
       
+      .nav-link:hover {
+        color:#59b616;
+      }
+
+.banner{
+    height: 100vh;
+    background-image:url(/images/banner-slide/Banner-1.jpg);
+    background-size: cover;
+    
+}
+
+.carousel-inner{
+    height: 200px;
+    width: 600px;
+    background:transparent;
+    color: red;
+    top: 270px;
+    left: 30px;
+    font-family: fantasy;
+    font-weight: 500;
+}
+
+.carousel-caption,.carousel-item{
+    height: 50%;
+    background-color:transparent;
+    color: black;
+}
 
       
